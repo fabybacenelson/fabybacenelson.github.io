@@ -10,7 +10,7 @@ a {
 
 body {
   background: url("../images/paintbluetile.png");
-  background-color: white;
+  background-color: #fbf6e2;
 }
 
 header {
@@ -38,7 +38,7 @@ header h1 a {
   text-indent: -9999px;
   width: 340px;
   height: 300px;
-  background: transparent url("../images/drawingphotowebsite.png") no-repeat;
+  background: transparent url("../images/drawingclean.png") no-repeat;
   background-size: cover;
   background-position: center center;
   position: relative;
