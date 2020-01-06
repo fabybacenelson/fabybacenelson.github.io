@@ -1,14 +1,73 @@
 body {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Public Sans", sans-serif;
+  line-height: 140%;
+}
+
+header {
+  background-color: #6eb5c2;
+}
+header h1 {
+  padding: 10% 0;
+  text-align: center;
+}
+header h1 a {
+  font-size: 24pt;
+  color: #fbf8e5;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+header nav {
+  background-color: #6eb5c2;
+}
+header nav svg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+header nav svg polygon {
+  width: calc(100% / 3);
+}
+header nav .navText {
+  font-size: 6px;
+  font-weight: bolder;
+  fill: #6eb5c2;
+}
+header nav .current {
+  fill: #fbf8e5;
+}
+
+a {
+  text-decoration: none;
+  color: #fbf8e5;
+}
+
+h2 {
+  text-align: center;
+  padding: 8% 0;
+  background-color: #6eb5c2;
+  color: #fbf8e5;
+  font-size: 18pt;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.bottom {
+  background-color: #6eb5c2;
+}
+.bottom .botText {
+  font-size: 9pt;
 }
 
 .drawing {
   max-width: 100%;
   background-color: #6eb5c2;
-  padding: 0 5%;
 }
 .drawing img {
   max-width: 100%;
+}
+
+footer {
+  background-color: #6eb5c2;
 }
 
 /*# sourceMappingURL=style.css.map */

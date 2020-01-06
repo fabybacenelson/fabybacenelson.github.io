@@ -1,14 +1,87 @@
+$drawing-blue: #6eb5c2;
+$drawing-yellow: #fbf8e5;
+
 body{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    line-height: 140%;
   }
-  
+
+header{
+    background-color: $drawing-blue;
+    
+    h1{
+        padding: 10% 0;
+        text-align: center;
+
+        a{
+            font-size: 24pt;
+            color: $drawing-yellow;
+            font-weight: bolder;
+            letter-spacing: 2px;
+        }
+    }
+
+    nav{
+        background-color: $drawing-blue;
+
+        svg{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            polygon{
+                width: calc(100% / 3);
+            }
+        }
+        
+        .navText{
+            font-size: 6px;
+            font-weight: bolder;
+            fill: $drawing-blue;
+        }
+
+        .current{
+            fill: $drawing-yellow;
+        }
+    
+    }
+}
+
+a{
+    text-decoration: none;
+    color: $drawing-yellow;
+}
+
+h2{
+    text-align: center;
+    padding: 8% 0;
+    background-color: $drawing-blue;
+
+    color: $drawing-yellow;
+    font-size: 18pt;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+.bottom{
+    background-color: $drawing-blue;
+    .botText{
+        font-size: 9pt;
+    }
+}
+
 .drawing{
     max-width: 100%;
-    background-color: #6eb5c2;
-    padding: 0 5%;
+    background-color: $drawing-blue;
+    // padding: 0 5%;
 
     img{
         max-width: 100%;
     }
  }
+
+footer{
+    background-color: $drawing-blue;
+}
 

@@ -5,27 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/reset.css">
+
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
+
+    <title>Nellie Nelson | About</title>
 </head>
 <body>
     <header>
-        <h1><a href="index.html">Nellie Nelson</a></h1>
+        <!-- <h1><a href="index.html">NELLIE NELSON</a></h1> -->
 
         <nav>
-            <ul>
-                <li class="about"><a class="current" href="#">About</a></li>
-                <li class="portfolio"><a href="portfolio.html">Portfolio</a></li>
-                <li class="contact"><a href="contact.html">Contact</a></li>
+                <svg viewBox="0 0 100 43">
+                    <a href="projects.html">
+                        <polygon points="0 43, 25 0, 50 43" stroke-width="0" fill="#fbf8e5">
+                        </polygon>
+                        <text x="10" y="35" class="navText">PROJECTS</text>
+                    </a>
+
+                    <a href="#">
+                        <polygon points="25 0, 50 43, 75 0" stroke-width="0" fill="#4ba2b2"></polygon>
+                        <text x="38" y="15" class="navText current">ABOUT</text>
+                    </a>
+
+                    <a href="contact.html">
+                        <polygon points="50 43, 75 0, 100 43" stroke-width="0" fill="#fbf8e5"></polygon>
+                        <text x="61" y="35" class="navText">CONTACT</text>
+                    </a>
+                </svg>
             </ul>
         </nav>
     </header>
 
     <div class="container">
-        <h2>About Me</h2>
-        <div class="hex-image">A drawing of my face.</div>
+        <svg class="bottom" viewBox="0 0 100 43">
+            <a href="#">
+                <polygon points="0 0, 25 43, 75 43, 100 0" stroke-width="0" fill="#4ba2b2"></polygon>
+                <text x="29" y="20" class="botText">NELLIE</text>
+                <text x="26" y="30" class="botText">NELSON</text>
+            </a>
+
+        </svg>
+        <div class="drawing"><img src="assets/images/hexdrawing.png" alt="A drawing of my Face"></div>
+        
         <p>
-            <!-- write somegthing interesting -->
             Nellie is a former Math teacher who is attempting to write a bio that takes up an appropriate amount of space on the page. She recently graduated from the University of Arizona with a degree in Psychology and a Thematic Minor in Mathematics and Technology. "Thematic" here not meaning that it was achieved with any amount of stage talent, but that it was a curriculum cobbled together with an advisor in a single afternoon. 
         </p>
         <p>
@@ -38,7 +61,11 @@
     </div>
     
     <footer>
-        Copyright &copy;
+        <ul>
+            <li><a href="https://github.com/fabybacenelson">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/kaylee-nellie-nelson-419883162/">LinkedIn</a></li>
+            <li>Email: <a href="herself@nellienelson.com">herself@nellienelson.com</a></li>
+        </ul>
     </footer>
 
 </body>
