@@ -83,23 +83,23 @@ a{
 p{
     color: darken($color: $drawing-blue, $amount: 35);
     font-weight: bold;
-    line-height: 1.4;
-    font-size: 6vw;
+    line-height: 1.5;
+    font-size: 5vw;
     text-shadow: 1px 1px $drawing-yellow, -1px 1px $drawing-yellow;
     -webkit-shape-inside: polygon(75.778px 272.829px, 1.555px 144.271px, 75.778px 15.713px, 224.222px 15.713px, 298.444px 144.271px, 224.222px 272.829px);
     position: absolute;
 
-    padding: 0 6%;
+    padding: 0 8%;
     text-align: center;
 }
 
 p:first-of-type{
-    top: 12vw;
+    top: 17vw;
 }
 
 p:last-of-type{
-    top: 98vw;
-    padding: 0 9%;
+    top: 105vw;
+    padding: 0 10%;
 }
 
 .footText{
