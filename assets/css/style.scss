@@ -1,5 +1,8 @@
 $drawing-blue: #6eb5c2;
 $drawing-yellow: #fbf8e5;
+html {
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: 'Public Sans', sans-serif;
@@ -8,22 +11,13 @@ body{
 
 header{
     background-color: $drawing-blue;
-    
-    h1{
-        padding: 10% 0;
-        text-align: center;
 
-        a{
-            font-size: 24pt;
-            color: $drawing-yellow;
-            font-weight: bolder;
-            letter-spacing: 2px;
-        }
-    }
+    // .top{
+    //     border-bottom: 3px solid $drawing-blue;
+    // }
 
     nav{
         background-color: $drawing-blue;
-        margin-top: 1%;
     }
 }
 
@@ -53,7 +47,7 @@ a{
 .drawing{
     max-width: 100%;
     background-color: $drawing-blue;
-    margin-top: 1%;
+    margin-bottom: 1%;
 
     img{
         max-width: 100%;
@@ -66,12 +60,8 @@ a{
     position: relative;
 }
 
-.content{
-    margin: 1% 0;
-}
-
 p{
-    color: darken($color: $drawing-blue, $amount: 35);
+    color: darken($color: $drawing-blue, $amount: 20);
     font-weight: bold;
     line-height: 1.5;
     font-size: 5vw;
@@ -84,11 +74,11 @@ p{
 }
 
 p:first-of-type{
-    top: 17vw;
+    top: 19.5vw;
 }
 
 p:last-of-type{
-    top: 105vw;
+    top: 109vw;
     padding: 0 10%;
 }
 

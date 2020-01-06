@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Public Sans", sans-serif;
   background-color: #6eb5c2;
@@ -6,19 +10,8 @@ body {
 header {
   background-color: #6eb5c2;
 }
-header h1 {
-  padding: 10% 0;
-  text-align: center;
-}
-header h1 a {
-  font-size: 24pt;
-  color: #fbf8e5;
-  font-weight: bolder;
-  letter-spacing: 2px;
-}
 header nav {
   background-color: #6eb5c2;
-  margin-top: 1%;
 }
 
 .navText {
@@ -47,7 +40,7 @@ a {
 .drawing {
   max-width: 100%;
   background-color: #6eb5c2;
-  margin-top: 1%;
+  margin-bottom: 1%;
 }
 .drawing img {
   max-width: 100%;
@@ -59,12 +52,8 @@ a {
   position: relative;
 }
 
-.content {
-  margin: 1% 0;
-}
-
 p {
-  color: #255058;
+  color: #3c818e;
   font-weight: bold;
   line-height: 1.5;
   font-size: 5vw;
@@ -76,11 +65,11 @@ p {
 }
 
 p:first-of-type {
-  top: 17vw;
+  top: 19.5vw;
 }
 
 p:last-of-type {
-  top: 105vw;
+  top: 109vw;
   padding: 0 10%;
 }
 
