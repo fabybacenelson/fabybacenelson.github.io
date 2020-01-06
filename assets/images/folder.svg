@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg fill-opacity="1" xmlns:xlink="http://www.w3.org/1999/xlink" color-rendering="auto" color-interpolation="auto" text-rendering="auto" stroke="black" stroke-linecap="square" stroke-miterlimit="10" shape-rendering="auto" stroke-opacity="1" fill="black" stroke-dasharray="none" font-weight="normal" stroke-width="1" xmlns="http://www.w3.org/2000/svg" font-family="&apos;Dialog&apos;" font-style="normal" stroke-linejoin="miter" font-size="12" stroke-dashoffset="0" image-rendering="auto">
+  <!--Unicode Character 'OPEN FILE FOLDER' (U+1F4C2)-->
+  <defs id="genericDefs" />
+  <g>
+    <g>
+      <path d="M218.25 408.6562 Q218.25 410.9062 216.0703 412.9453 Q213.8906 414.9844 211.6406 414.9844 Q209.1094 414.9844 145.125 377.5781 Q74.5312 336.375 68.7656 333.4219 Q65.5312 331.875 62.3672 330.1875 Q59.2031 328.5 57.3047 325.1953 Q55.4062 321.8906 33.4688 255.2344 Q11.5312 188.5781 11.5312 186.6094 Q11.5312 180.1406 18.1406 180.1406 Q21.0938 180.1406 55.5469 200.8125 L55.8281 156.2344 Q55.8281 151.0312 61.1719 150.75 L150.0469 201.6562 Q155.8125 196.4531 168.4688 187.5938 L218.25 215.8594 L218.25 408.6562 ZM206.7188 384.6094 L206.7188 222.8906 L169.3125 200.8125 L150.1875 214.875 L67.7812 167.9062 L67.7812 207.7031 Q104.4844 229.2188 153 256.7812 Q159.75 260.5781 161.8594 262.2656 Q166.2188 265.6406 168.4688 270.4219 Q168.75 270.8438 172.6875 283.6406 Q173.5312 286.1719 180.4219 306.9844 Q183.0938 315 206.7188 384.6094 ZM197.8594 395.1562 Q172.4062 321.1875 157.2188 273.5156 Q150.6094 267.6094 130.6406 256.2188 L26.1562 197.2969 L67.5 319.9219 L197.8594 395.1562 Z" stroke="none" />
+    </g>
+  </g>
+</svg>

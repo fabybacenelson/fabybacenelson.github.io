@@ -27,16 +27,6 @@ header{
     }
 }
 
-svg{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-    polygon{
-        width: calc(100% / 3);
-    }
-}
-
 .navText{
     font-size: 6px;
     font-weight: bolder;
