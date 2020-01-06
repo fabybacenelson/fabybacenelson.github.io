@@ -56,6 +56,7 @@ a {
 .drawing {
   max-width: 100%;
   background-color: #6eb5c2;
+  margin-top: 1%;
 }
 .drawing img {
   max-width: 100%;
@@ -63,7 +64,7 @@ a {
 
 .footText {
   fill: #fbf8e5;
-  font-size: 15pt;
+  font-size: 20pt;
 }
 
 /*# sourceMappingURL=style.css.map */

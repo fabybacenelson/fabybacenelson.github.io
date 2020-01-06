@@ -63,7 +63,7 @@ a{
 .drawing{
     max-width: 100%;
     background-color: $drawing-blue;
-
+    margin-top: 1%;
     img{
         max-width: 100%;
     }
@@ -71,6 +71,6 @@ a{
 
 .footText{
     fill: $drawing-yellow;
-    font-size: 15pt;
+    font-size: 20pt;
 }
 
