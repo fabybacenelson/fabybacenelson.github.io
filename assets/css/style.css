@@ -45,12 +45,12 @@ a {
   color: #fbf8e5;
 }
 
-.bottom {
+.top {
   background-color: #6eb5c2;
 }
-.bottom .botText {
+.top .botText {
   font-size: 9pt;
-  fill: #fbf8e5;
+  fill: #3c818e;
 }
 
 .drawing {
@@ -60,6 +60,37 @@ a {
 }
 .drawing img {
   max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
+}
+
+.content {
+  margin: 1% 0;
+}
+
+p {
+  color: #255058;
+  font-weight: bold;
+  line-height: 1.4;
+  font-size: 6vw;
+  text-shadow: 1px 1px #fbf8e5, -1px 1px #fbf8e5;
+  -webkit-shape-inside: polygon(75.778px 272.829px, 1.555px 144.271px, 75.778px 15.713px, 224.222px 15.713px, 298.444px 144.271px, 224.222px 272.829px);
+  position: absolute;
+  padding: 0 6%;
+  text-align: center;
+}
+
+p:first-of-type {
+  top: 12vw;
+}
+
+p:last-of-type {
+  top: 98vw;
+  padding: 0 9%;
 }
 
 .footText {

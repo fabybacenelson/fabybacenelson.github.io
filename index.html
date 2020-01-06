@@ -9,50 +9,63 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
 
+    <script src="//d3plus.org/js/d3.js"></script>
+    <script src="//d3plus.org/js/d3plus.js"></script>
+
     <title>Nellie Nelson | About</title>
 </head>
 <body>
     <header>
         <!-- <h1><a href="index.html">NELLIE NELSON</a></h1> -->
+        <svg class="top" viewBox="0 0 100 43">
+            <a href="#">
+                <polygon points="0 43, 25 0, 75 0, 100 43" stroke-width="0" fill="#fbf8e5"></polygon>
+                <text x="29" y="19" class="botText">NELLIE</text>
+                <text x="26" y="31" class="botText">NELSON</text>
+            </a>
+
+        </svg>
 
         <nav>
                 <svg viewBox="0 0 100 43">
                     <a href="projects.html">
-                        <polygon points="0 43, 25 0, 50 43" stroke-width="0" fill="#fbf8e5">
+                        <polygon points="0 0, 25 43, 50 0" stroke-width="0" fill="#fbf8e5">
                         </polygon>
-                        <text x="10" y="35" class="navText">PROJECTS</text>
+                        <text x="8.5" y="12" class="navText">PORTFOLIO</text>
                     </a>
 
                     <a href="#">
-                        <polygon points="25 0, 50 43, 75 0" stroke-width="0" fill="#4ba2b2"></polygon>
-                        <text x="38" y="15" class="navText current">ABOUT</text>
+                        <polygon points="25 43, 50 0, 75 43" stroke-width="0" fill="#4ba2b2"></polygon>
+                        <text x="40" y="35" class="navText current">ABOUT</text>
                     </a>
 
                     <a href="contact.html">
-                        <polygon points="50 43, 75 0, 100 43" stroke-width="0" fill="#fbf8e5"></polygon>
-                        <text x="61" y="35" class="navText">CONTACT</text>
+                        <polygon points="50 0, 75 43, 100 0" stroke-width="0" fill="#fbf8e5"></polygon>
+                        <text x="61" y="12" class="navText">CONTACT</text>
                     </a>
                 </svg>
             </ul>
         </nav>
     </header>
 
-    <div class="container">
-        <svg class="bottom" viewBox="0 0 100 43">
-            <a href="#">
-                <polygon points="0 0, 25 43, 75 43, 100 0" stroke-width="0" fill="#4ba2b2"></polygon>
-                <text x="29" y="19" class="botText">NELLIE</text>
-                <text x="26" y="31" class="botText">NELSON</text>
-            </a>
+    <div class="drawing"><img src="assets/images/drawing.png" alt="A drawing of my Face"></div>
 
+    <div class="container">
+        <svg class="content" viewBox="0 0 100 86">
+            <polygon class="shape" points="25 0, 75 0, 100 43, 75 86, 25 86, 0 43" stroke-width="0" fill="#fbf8e5"></polygon>
         </svg>
-        <div class="drawing"><img src="assets/images/hexdrawing.png" alt="A drawing of my Face"></div>
+    
+        <p> 
+            Nellie graduated from the University of Arizona with a B.S. in Psychology and a Minor in Mathematics and Technology. She advises the UA Mock Trial team on expert witness testimony, funny accents, and crying.
+        </p>
+
+
+        <svg class="content" viewBox="0 0 100 86">
+            <polygon points="25 0, 75 0, 100 43, 75 86, 25 86, 0 43" stroke-width="0" fill="#fbf8e5"></polygon>
+        </svg>
         
         <p>
-            Nellie graduated from the University of Arizona with a degree in Psychology and a Thematic Minor in Mathematics and Technology. She was President of Mock Trial at the University of Arizona and advised members on expert witness testimony, funny accents, and crying (both on and off the witness stand).
-        </p>
-        <p>
-            Nellie became interested in web development when she accidentally opened up the page source of an early 2000's website and saw an not-quite-age-appropriate ASCII drawing commented into the page.
+            She became interested in web development when she accidentally opened up the page source of an early 2000's website and saw an less-than-appropriate ASCII drawing commented into the page.
         </p>
 
     </div>
