@@ -1,6 +1,6 @@
 body {
   font-family: "Public Sans", sans-serif;
-  line-height: 140%;
+  background-color: #6eb5c2;
 }
 
 header {
@@ -18,21 +18,25 @@ header h1 a {
 }
 header nav {
   background-color: #6eb5c2;
+  margin-top: 1%;
 }
-header nav svg {
+
+svg {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-header nav svg polygon {
+svg polygon {
   width: calc(100% / 3);
 }
-header nav .navText {
+
+.navText {
   font-size: 6px;
   font-weight: bolder;
-  fill: #6eb5c2;
+  fill: #4392a0;
 }
-header nav .current {
+
+.current {
   fill: #fbf8e5;
 }
 
@@ -41,21 +45,12 @@ a {
   color: #fbf8e5;
 }
 
-h2 {
-  text-align: center;
-  padding: 8% 0;
-  background-color: #6eb5c2;
-  color: #fbf8e5;
-  font-size: 18pt;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
 .bottom {
   background-color: #6eb5c2;
 }
 .bottom .botText {
   font-size: 9pt;
+  fill: #fbf8e5;
 }
 
 .drawing {
@@ -66,8 +61,9 @@ h2 {
   max-width: 100%;
 }
 
-footer {
-  background-color: #6eb5c2;
+.footText {
+  fill: #fbf8e5;
+  font-size: 15pt;
 }
 
 /*# sourceMappingURL=style.css.map */

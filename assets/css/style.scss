@@ -3,7 +3,7 @@ $drawing-yellow: #fbf8e5;
 
 body{
     font-family: 'Public Sans', sans-serif;
-    line-height: 140%;
+    background-color: $drawing-blue;
   }
 
 header{
@@ -23,28 +23,28 @@ header{
 
     nav{
         background-color: $drawing-blue;
-
-        svg{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-
-            polygon{
-                width: calc(100% / 3);
-            }
-        }
-        
-        .navText{
-            font-size: 6px;
-            font-weight: bolder;
-            fill: $drawing-blue;
-        }
-
-        .current{
-            fill: $drawing-yellow;
-        }
-    
+        margin-top: 1%;
     }
+}
+
+svg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    polygon{
+        width: calc(100% / 3);
+    }
+}
+
+.navText{
+    font-size: 6px;
+    font-weight: bolder;
+    fill: darken($color: $drawing-blue, $amount: 15);
+}
+
+.current{
+    fill: $drawing-yellow;
 }
 
 a{
@@ -52,36 +52,25 @@ a{
     color: $drawing-yellow;
 }
 
-h2{
-    text-align: center;
-    padding: 8% 0;
-    background-color: $drawing-blue;
-
-    color: $drawing-yellow;
-    font-size: 18pt;
-    font-weight: bold;
-    letter-spacing: 1px;
-
-}
-
 .bottom{
     background-color: $drawing-blue;
     .botText{
         font-size: 9pt;
+        fill: $drawing-yellow;
     }
 }
 
 .drawing{
     max-width: 100%;
     background-color: $drawing-blue;
-    // padding: 0 5%;
 
     img{
         max-width: 100%;
     }
  }
 
-footer{
-    background-color: $drawing-blue;
+.footText{
+    fill: $drawing-yellow;
+    font-size: 15pt;
 }
 
