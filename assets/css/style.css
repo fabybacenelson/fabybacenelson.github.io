@@ -82,13 +82,19 @@ p:last-of-type {
 .projText {
   fill: #fbf8e5;
 }
-
-#weather {
-  font-size: 4vw;
+.projText:first-of-type {
   font-weight: bold;
 }
 
+#weather {
+  font-size: 4vw;
+}
+
 #dashboard {
+  font-size: 4vw;
+}
+
+#password {
   font-size: 4vw;
 }
 
