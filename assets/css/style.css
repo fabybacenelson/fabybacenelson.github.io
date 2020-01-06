@@ -32,9 +32,10 @@ a {
 .top {
   background-color: #6eb5c2;
 }
-.top .botText {
+.top .name {
   font-size: 9pt;
   fill: #3c818e;
+  font-weight: bolder;
 }
 
 .drawing {
@@ -76,6 +77,32 @@ p:last-of-type {
 .footText {
   fill: #fbf8e5;
   font-size: 20pt;
+}
+
+.projText {
+  fill: #fbf8e5;
+}
+
+#weather {
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+#dashboard {
+  font-size: 4vw;
+}
+
+.gitlink {
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+
+.repo {
+  fill: #fbf8e5;
+}
+
+.page {
+  fill: #3c818e;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -38,9 +38,10 @@ a{
 
 .top{
     background-color: $drawing-blue;
-    .botText{
+    .name{
         font-size: 9pt;
         fill: darken($color: $drawing-blue, $amount: 20);
+        font-weight: bolder;
     }
 }
 
@@ -87,7 +88,31 @@ p:last-of-type{
     font-size: 20pt;
 }
 
+.projText{
+    fill: $drawing-yellow;
+}
 
+#weather{
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+#dashboard{
+    font-size: 4vw;
+}
+
+.gitlink{
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+.repo{
+    fill: $drawing-yellow;
+}
+
+.page{
+    fill: darken($color: $drawing-blue, $amount: 20)
+}
 
 
   
