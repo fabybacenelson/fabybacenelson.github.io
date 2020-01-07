@@ -12,11 +12,13 @@
     <script src="//d3plus.org/js/d3.js"></script>
     <script src="//d3plus.org/js/d3plus.js"></script>
 
-    <title>Projects | Nellie Nelson</title>
+    <script src="assets/js/jquery-3.4.1.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <title>About | Nellie Nelson</title>
 </head>
 <body>
     <header>
-        <!-- <h1><a href="index.html">NELLIE NELSON</a></h1> -->
         <svg class="top" viewBox="0 0 100 43">
             <a href="index.html">
                 <polygon points="0 43, 25 0, 75 0, 100 43" stroke-width="0" fill="#fbf8e5"></polygon>
@@ -28,64 +30,52 @@
 
         <nav>
                 <svg viewBox="0 0 100 43">
-                    <a href="about.html">
+                    <a href="index.html">
                         <polygon points="0 0, 25 43, 50 0" stroke-width="0" fill="#fbf8e5">
                         </polygon>
-                        <text x="13.5" y="10" class="navText about">ABOUT</text>
+                        <text x="7.5" y="10" class="navText portfolio"> PROJECTS</text>
+                        <!-- <image width="14" x="19" y="12" href="assets/images/file.svg"></image> -->
                     </a>
 
                     <a href="#">
                         <polygon points="25 43, 50 0, 75 43" stroke-width="0" fill="#3C818E"></polygon>
-                        <text x="35.5" y="35" class="navText contact current">CONTACT</text>
+                        <text x="40" y="35" class="navText about current">ABOUT</text>
                     </a>
 
-                    <a href="index.html">
+                    <a href="contact.html">
                         <polygon points="50 0, 75 43, 100 0" stroke-width="0" fill="#fbf8e5"></polygon>
-                        <text x="57.5" y="10" class="navText portfolio">PROJECTS</text>
+                        <text x="61" y="10" class="navText contact">CONTACT</text>
+                        <!-- <image width="14" x="68" y="13" href="assets/images/bubble.svg"></image> -->
                     </a>
                 </svg>
             </ul>
         </nav>
     </header>
 
+    <div class="drawing"><img src="assets/images/drawing.png" alt="A drawing of my Face"></div>
+
     <div class="container">
         <svg class="content" viewBox="0 0 100 86">
-            <polygon class="shape" points="25 0, 75 0, 50 43, 100 43, 75 86, 25 86, 50 43, 0 43" stroke-width="0" fill="#fbf8e5"></polygon>
-            
-            <a href="mailto:herself@nellienelson.com">
-                <text x="67" y="34.5" class="footText">@</text>
-            </a>
-            <text x="22" y="18" class="info email">email</text>
-            <a href="mailto:herself@nellienelson.com">
-                <text x="12" y="29" class="info address">NaN@nellienelson.com</text>
-            </a>
-
-            <image width="18" x="12.5" y="50" href="assets/images/download.svg"></image>
-            <text x="47" y="63" class="info resume">resume</text>
-            <text x="39" y="74" class="info download">download</text>
-
+            <polygon class="shape" points="25 0, 75 0, 100 43, 75 86, 25 86, 0 43" stroke-width="0" fill="#fbf8e5"></polygon>
         </svg>
+    
+        <div class="p">
+            <p> 
+                Nellie graduated from the University of Arizona with a B.S. in Psychology and a Minor in Mathematics and Technology. She advises the UA Mock Trial team on expert witness testimony, funny accents, and crying.
+            </p>
+        </div>
+
 
         <svg class="content" viewBox="0 0 100 86">
-            <polygon class="shape" points="0 43, 50 43, 25 0, 75 0, 100 43, 50 43, 75 86, 25 86" stroke-width="0" fill="#fbf8e5"></polygon>
-
-            <a href="https://github.com/fabybacenelson">
-                <image width="24" x="11" y="12" href="assets/images/githubLight.svg"></image>
-            </a>
-            <text x="40" y="18" class="info github">github</text>
-            <a href="https://github.com/fabybacenelson">
-                <text x="45" y="29" class="info username">fabybacenelson</text>
-            </a>
-
-            <a href="https://www.linkedin.com/in/kaylee-nellie-nelson-419883162/">
-                <image width="15" x="70" y="54" href="assets/images/linkedinLight.svg"></image>
-            </a>
-            <a href="https://www.linkedin.com/in/kaylee-nellie-nelson-419883162/">
-                <text x="16.5" y="66" class="info linkedin">linkedin</text>
-            </a>
-
-            
+            <polygon points="25 0, 75 0, 100 43, 75 86, 25 86, 0 43" stroke-width="0" fill="#fbf8e5"></polygon>
         </svg>
+        
+        <div class="p">
+            <p>
+            She became interested in web development when she accidentally opened up the page source of an early 2000's website and saw an less-than-appropriate ASCII drawing commented into the page.
+        </p>
+    </div>
+        
 
     </div>
     
@@ -102,7 +92,7 @@
                 <image width="25" x="38.5" y="3" href="assets/images/githubBlue.svg"></image>
             </a>
 
-            <a href="mailto:herself@nellienelson.com">
+            <a href="herself@nellienelson.com">
                 <polygon points="50 43, 75 0, 100 43" stroke-width="0" fill="#4ba2b2"></polygon>
                 <text x="64" y="34.5" class="footText" >@</text>
             </a>
