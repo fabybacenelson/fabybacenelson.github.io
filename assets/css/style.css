@@ -244,6 +244,10 @@ footer {
   footer svg {
     width: 100%;
   }
+
+  .contactPage {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
