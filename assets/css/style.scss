@@ -233,12 +233,9 @@ footer{
     }
 
     #screenHex{
-        // display: block;
+        display: block;
         max-width: 334px;
-        // position: fixed;
-        // left: calc(50vw - 150px);
-        // bottom: 0;
-        margin: 0 auto 200px auto;
+        margin: 0 auto 150px auto;
         svg{
             width: 100%;
         }
@@ -260,7 +257,7 @@ footer{
         position: fixed;
         bottom: 0;
         left: calc(50vw - 157px);
-
+        margin-bottom: -2px;
         svg{
             width: 100%;
         }

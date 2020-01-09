@@ -216,8 +216,9 @@ footer {
   }
 
   #screenHex {
+    display: block;
     max-width: 334px;
-    margin: 0 auto 200px auto;
+    margin: 0 auto 150px auto;
   }
   #screenHex svg {
     width: 100%;
@@ -238,6 +239,7 @@ footer {
     position: fixed;
     bottom: 0;
     left: calc(50vw - 157px);
+    margin-bottom: -2px;
   }
   footer svg {
     width: 100%;
