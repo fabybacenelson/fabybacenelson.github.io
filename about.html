@@ -8,12 +8,9 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
-
+<!-- 
     <script src="//d3plus.org/js/d3.js"></script>
-    <script src="//d3plus.org/js/d3plus.js"></script>
-
-    <script src="assets/js/jquery-3.4.1.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="//d3plus.org/js/d3plus.js"></script> -->
 
     <title>About | Nellie Nelson</title>
 </head>
@@ -31,7 +28,7 @@
         <nav>
                 <svg viewBox="0 0 100 43">
                     <a href="index.html">
-                        <polygon points="0 0, 25 43, 50 0" stroke-width="0" fill="#fbf8e5">
+                        <polygon points="0 0, 25 43, 50 0" stroke-width="0" fill="#fbf8e5" class="left">
                         </polygon>
                         <text x="7.5" y="10" class="navText portfolio"> PROJECTS</text>
                         <!-- <image width="14" x="19" y="12" href="assets/images/file.svg"></image> -->
@@ -43,7 +40,7 @@
                     </a>
 
                     <a href="contact.html">
-                        <polygon points="50 0, 75 43, 100 0" stroke-width="0" fill="#fbf8e5"></polygon>
+                        <polygon points="50 0, 75 43, 100 0" stroke-width="0" fill="#fbf8e5" class="right"></polygon>
                         <text x="61" y="10" class="navText contact">CONTACT</text>
                         <!-- <image width="14" x="68" y="13" href="assets/images/bubble.svg"></image> -->
                     </a>
@@ -52,14 +49,16 @@
         </nav>
     </header>
 
-    <div class="drawing"><img src="assets/images/drawing.png" alt="A drawing of my Face"></div>
+    
 
     <div class="container">
+        <div class="drawing"><img src="assets/images/drawing.png" alt="A drawing of my Face"></div>
+
         <svg class="content" viewBox="0 0 100 86">
             <polygon class="shape" points="25 0, 75 0, 100 43, 75 86, 25 86, 0 43" stroke-width="0" fill="#fbf8e5"></polygon>
         </svg>
     
-        <div class="p">
+        <div class="p1">
             <p> 
                 Nellie graduated from the University of Arizona with a B.S. in Psychology and a Minor in Mathematics and Technology. She advises the UA Mock Trial team on expert witness testimony, funny accents, and crying.
             </p>
@@ -70,10 +69,11 @@
             <polygon points="25 0, 75 0, 100 43, 75 86, 25 86, 0 43" stroke-width="0" fill="#fbf8e5"></polygon>
         </svg>
         
-        <div class="p">
+        <div class="p2">
             <p>
             She became interested in web development when she accidentally opened up the page source of an early 2000's website and saw an less-than-appropriate ASCII drawing commented into the page.
         </p>
+        </div>
     </div>
         
 

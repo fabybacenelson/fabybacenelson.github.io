@@ -11,6 +11,11 @@ body{
 
 header{
     background-color: $drawing-blue;
+
+    nav{
+        margin-bottom: 4px;
+    }
+
 }
 
 .navText{
@@ -84,7 +89,7 @@ p{
     margin: 0 auto;
 }
 
-.p{
+.p1, .p2{
     height: 80vw;
     width: 75vw;
     display: block;
@@ -92,12 +97,16 @@ p{
     left: 13vw;
 }
 
-.p:first-of-type{
-    top: 17vw;
+.p1{
+    top: 315px;
 }
 
-.p:last-of-type{
-    top: 105vw;
+.p2{
+    top: 183vw;
+}
+
+footer{
+    margin-top: 2px;
 }
 
 .footText{
@@ -162,7 +171,7 @@ p{
     text-decoration: underline;
 }
 
-.screenshot{
+#screenHex{
     display: none;
 }
 
@@ -180,11 +189,11 @@ p{
         width: 100%;
     }
 
-    .p:first-of-type{
+    .p1{
         top: 150px;
     }
 
-    .p:last-of-type{
+    .p2{
         top: 690px;
     }
 
@@ -223,8 +232,8 @@ p{
         }
     }
 
-    .screenshot{
-        display: block;
+    #screenHex{
+        // display: block;
         max-width: 334px;
         // position: fixed;
         // left: calc(50vw - 150px);

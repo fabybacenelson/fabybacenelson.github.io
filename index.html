@@ -8,9 +8,12 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
-
+<!-- 
     <script src="//d3plus.org/js/d3.js"></script>
-    <script src="//d3plus.org/js/d3plus.js"></script>
+    <script src="//d3plus.org/js/d3plus.js"></script> -->
+
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
 
     <title>Nellie Nelson | Portfolio</title>
 </head>
@@ -54,7 +57,7 @@
     <div class="container">
         <svg class="content" viewBox="0 0 100 86">
             
-            <a href="#" id="codeQuiz">
+            <a href="#codeQuiz" id="codeQuiz">
                 <polygon class="shape" points="25 0, 50 43, 75 0" stroke-width="0" fill="#fbf8e5"></polygon>
                 <image width="20" x="40" y="6" href="assets/images/grade.svg"></image>
                 <text x="40" y="-6" transform="rotate(60)" class="projText" id="code">CODE</text>
@@ -78,8 +81,12 @@
 
         <svg class="content" viewBox="0 0 100 86">
             
-            <polygon class="shape" points="25 0, 50 43, 75 0" stroke-width="0" fill="#fbf8e5"></polygon>
-            <image width="18" x="43" y="6" href="assets/images/key.svg"></image>
+            <a href="#passGen" id="passGen">
+                <text x="20" y="-7" transform="rotate(60)" class="projText" id="password">PASSWORD</text>
+                <text x="17" y="5" transform="rotate(60)" class="projText" id="dashboard">GENERATOR</text>
+                <polygon class="shape" points="25 0, 50 43, 75 0" stroke-width="0" fill="#fbf8e5"></polygon>
+                <image width="18" x="43" y="6" href="assets/images/key.svg"></image>
+            </a>
 
             <a href="https://github.com/fabybacenelson/Password-Generator">
                 <polygon class="shape" points="75 0, 50 43, 100 43" stroke-width="0" fill="#4ba2b2"></polygon>
@@ -93,14 +100,17 @@
             </a>
 
 
-            <text x="20" y="-7" transform="rotate(60)" class="projText" id="password">PASSWORD</text>
-            <text x="17" y="5" transform="rotate(60)" class="projText" id="dashboard">GENERATOR</text>
+            
         </svg>
 
         <svg class="content" viewBox="0 0 100 86">
             
-            <polygon class="shape" points="25 0, 50 43, 75 0" stroke-width="0" fill="#fbf8e5"></polygon>
-            <image width="20" x="40" y="6" href="assets/images/storm.svg"></image>
+            <a href="#weathDash" id="weathDash">
+                <text x="24" y="-7" transform="rotate(60)" class="projText" id="weather">WEATHER</text>
+                <text x="17" y="5" transform="rotate(60)" class="projText" id="dashboard"> DASHBOARD</text>
+                <polygon class="shape" points="25 0, 50 43, 75 0" stroke-width="0" fill="#fbf8e5"></polygon>
+                <image width="20" x="40" y="6" href="assets/images/storm.svg"></image>
+            </a>
 
             <a href="https://github.com/fabybacenelson/Weather-Dashboard">
                 <polygon class="shape" points="75 0, 50 43, 100 43" stroke-width="0" fill="#4ba2b2"></polygon>
@@ -114,20 +124,19 @@
             </a>
 
 
-            <text x="24" y="-7" transform="rotate(60)" class="projText" id="weather">WEATHER</text>
-            <text x="17" y="5" transform="rotate(60)" class="projText" id="dashboard"> DASHBOARD</text>
+            
         </svg>
 
     </div>
     
-    <div class="screenshot">
-        <svg class="content" id="screenHex" viewBox="0 0 100 86">
+    <div id="screenHex">
+        <svg class="content"  viewBox="0 0 100 86">
             <defs>
-                <pattern id="img1" patternUnits="userSpaceOnUse" width="100" height="100">
-                    <image xlink:href="./assets/images/quizScreen.png" x="0" y="0" height="100px" />
+                <pattern id="screenImg" patternUnits="userSpaceOnUse" width="100" height="100">
+                    <image id="screenLink" xlink:href="" x="0" y="0" height="100px" />
                 </pattern>
             </defs>
-            <polygon points="25 0, 75 0, 100 43, 75 86, 25 86, 0 43" stroke-width="0" fill="url(#img1)"></polygon>
+            <polygon points="25 0, 75 0, 100 43, 75 86, 25 86, 0 43" stroke-width="0" fill="url(#screenImg)"></polygon>
         </svg>        
     </div>
 
