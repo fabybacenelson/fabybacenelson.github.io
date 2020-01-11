@@ -7,7 +7,7 @@ $(document).ready(function(){
             $("#fillHex").attr("fill","url(#screenImg)");
         },function(){
             // $("#screenHex").css("display","none");
-            $("#fillHex").attr("fill","#6eb5c2");
+            $("#fillHex").attr("fill","#a4d0d9");
         });
 
         $("#passGen").hover(function(){
@@ -16,7 +16,7 @@ $(document).ready(function(){
             $("#fillHex").attr("fill","url(#screenImg)");
         },function(){
             // $("#screenHex").css("display","none");
-            $("#fillHex").attr("fill","#6eb5c2");
+            $("#fillHex").attr("fill","#a4d0d9");
         });
 
         $("#weathDash").hover(function(){
@@ -25,7 +25,7 @@ $(document).ready(function(){
             $("#fillHex").attr("fill","url(#screenImg)");
         },function(){
             // $("#screenHex").css("display","none");
-            $("#fillHex").attr("fill","#6eb5c2");
+            $("#fillHex").attr("fill","#a4d0d9");
         });
     }
 });
