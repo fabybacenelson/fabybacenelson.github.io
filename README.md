@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my portfolio website. Currently it has the main projects page, an "about me" page, and a "contact" page.
+This is my portfolio website. Currently it has the main projects page, an "about me" page (under construction), and a "contact" page.
 
 ## Installation
 
