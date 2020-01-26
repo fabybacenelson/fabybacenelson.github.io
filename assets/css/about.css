@@ -1,0 +1,46 @@
+@media screen and (min-width: 800px) {
+  svg {
+    width: calc(14.5vh * 4);
+    height: calc(97vh / 4); }
+
+  .fullHex {
+    height: 49vh;
+    margin-top: 1vh; }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: calc(97vh / 4); }
+    header .top {
+      margin-top: 1vh; }
+    header nav {
+      margin: 0 -13vh 0 -13vh; }
+
+  .container .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: calc(97vh / 4); }
+    .container .row .drawing, .container .row .center {
+      width: calc(14.5vh * 4);
+      margin: 1vh -13vh 0 -13vh;
+      z-index: -1; }
+    .container .row .center {
+      z-index: -2; }
+    .container .row .right {
+      margin: -1px 0 0 0; }
+  .container .r1 .halfHex {
+    margin-top: 1vh; }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: calc(97vh / 4);
+    margin-top: 3vh; } }
+
+/*# sourceMappingURL=about.css.map */
