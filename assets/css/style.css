@@ -1,3 +1,7 @@
+*:focus {
+  outline: 2px solid darkblue;
+  z-index: 9999; }
+
 html {
   scroll-behavior: smooth; }
 
