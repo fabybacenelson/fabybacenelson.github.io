@@ -5,6 +5,10 @@ $drawing-yellow: #fbf8e5;
     z-index: 9999;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -80,35 +84,35 @@ a{
     position: relative;
 }
 
-p{
-    color: darken($color: $drawing-blue, $amount: 20);
-    font-weight: bold;
-    line-height: 1.5;
-    font-size: 100%;
-    display: inline-block;
-    text-shadow: 1px 1px $drawing-yellow, -1px 1px $drawing-yellow;
-    // position: absolute;
-    padding: 0 8%;
-    text-align: center;
-    vertical-align: middle;
-    margin: 0 auto;
-}
+// p{
+//     color: darken($color: $drawing-blue, $amount: 20);
+//     font-weight: bold;
+//     line-height: 1.5;
+//     font-size: 100%;
+//     display: inline-block;
+//     text-shadow: 1px 1px $drawing-yellow, -1px 1px $drawing-yellow;
+//     // position: absolute;
+//     padding: 0 8%;
+//     text-align: center;
+//     vertical-align: middle;
+//     margin: 0 auto;
+// }
 
-.p1, .p2{
-    height: 80vw;
-    width: 75vw;
-    display: block;
-    position: absolute;
-    left: 13vw;
-}
+// .p1, .p2{
+//     height: 80vw;
+//     width: 75vw;
+//     display: block;
+//     position: absolute;
+//     left: 13vw;
+// }
 
-.p1{
-    top: 315px;
-}
+// .p1{
+//     top: 315px;
+// }
 
-.p2{
-    top: 183vw;
-}
+// .p2{
+//     top: 183vw;
+// }
 
 footer{
     margin-top: 2px;

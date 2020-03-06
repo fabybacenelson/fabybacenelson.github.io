@@ -1,124 +1,131 @@
 *:focus {
   outline: 2px solid darkblue;
-  z-index: 9999; }
+  z-index: 9999;
+}
+
+* {
+  box-sizing: border-box;
+}
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+}
 
 body {
-  font-family: 'Public Sans', sans-serif;
-  background-color: #6eb5c2; }
+  font-family: "Public Sans", sans-serif;
+  background-color: #6eb5c2;
+}
 
 header {
-  background-color: #6eb5c2; }
-  header nav {
-    margin-bottom: 4px; }
+  background-color: #6eb5c2;
+}
+header nav {
+  margin-bottom: 4px;
+}
 
 .navText {
   font-size: 5pt;
   font-weight: bolder;
-  fill: #4392a0; }
+  fill: #4392a0;
+}
 
 .current {
-  fill: #fbf8e5; }
+  fill: #fbf8e5;
+}
 
 a {
   text-decoration: none;
-  color: #fbf8e5; }
+  color: #fbf8e5;
+}
 
 .top .name {
   font-size: 9pt;
   fill: #3c818e;
-  font-weight: bolder; }
+  font-weight: bolder;
+}
 
 .drawing {
   max-width: 100%;
   background-color: #6eb5c2;
-  margin-bottom: 1%; }
-  .drawing img {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto; }
+  margin-bottom: 1%;
+}
+.drawing img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
 
 .container {
-  position: relative; }
-
-p {
-  color: #3c818e;
-  font-weight: bold;
-  line-height: 1.5;
-  font-size: 100%;
-  display: inline-block;
-  text-shadow: 1px 1px #fbf8e5, -1px 1px #fbf8e5;
-  padding: 0 8%;
-  text-align: center;
-  vertical-align: middle;
-  margin: 0 auto; }
-
-.p1, .p2 {
-  height: 80vw;
-  width: 75vw;
-  display: block;
-  position: absolute;
-  left: 13vw; }
-
-.p1 {
-  top: 315px; }
-
-.p2 {
-  top: 183vw; }
+  position: relative;
+}
 
 footer {
-  margin-top: 2px; }
+  margin-top: 2px;
+}
 
 .footText {
   fill: #fbf8e5;
-  font-size: 20pt; }
+  font-size: 20pt;
+}
 
 .projText {
-  fill: #fbf8e5; }
-  .projText:first-of-type {
-    font-weight: bold; }
+  fill: #fbf8e5;
+}
+.projText:first-of-type {
+  font-weight: bold;
+}
 
 #weather {
-  font-size: 10pt; }
+  font-size: 10pt;
+}
 
 #dashboard {
-  font-size: 9.5pt; }
+  font-size: 9.5pt;
+}
 
 #password {
-  font-size: 10pt; }
+  font-size: 10pt;
+}
 
 .gitlink {
   font-size: 8pt;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .repo {
-  fill: #fbf8e5; }
+  fill: #fbf8e5;
+}
 
 .page, .info {
   fill: #34717c;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .email, .resume, .github, .linkedin {
-  font-size: 8.5pt; }
+  font-size: 8.5pt;
+}
 
 .address {
   font-size: 3.1pt;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 .download {
   font-size: 6pt;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 .username {
   font-size: 4.5pt;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 .linkedin:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 #screenHex {
-  display: none; }
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */
