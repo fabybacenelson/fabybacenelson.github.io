@@ -1,8 +1,3 @@
-*:focus {
-  outline: 2px solid darkblue;
-  z-index: 9999;
-}
-
 * {
   box-sizing: border-box;
 }
