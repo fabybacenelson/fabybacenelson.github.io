@@ -1,4 +1,5 @@
-
+$drawing-blue: #6eb5c2;
+$drawing-yellow: #fbf8e5;
 @media screen and (min-width: 800px){
 
 svg{
@@ -69,73 +70,39 @@ footer{
     grid-row: 5;
     grid-column: 7;
 }
-// .ptext{
-//     font-size: 3vh;
-//     width: 20%;
-// }
 
-//     header{
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: center;
-//         width: 100vw;
-        
-//         height: calc(97vh / 4);
-//         .top{
-//             margin-top: 1vh;
-//         }
-
-        
-//         nav{
-//             margin: 0 -13vh 0 -13vh;
-//         }
-
-//     }
-
-//     .container{
-  
-
-//         .row{
-//             display: flex;
-//             flex-direction: row;
-//             justify-content: center;
-//             width: 100vw;
-//             height: calc(97vh / 4);
-
-//             .drawing, .center{
-//                 width: calc(14.5vh * 4);
-//                 margin: 1vh -13vh 0 -13vh;
-//                 z-index: -1;
-//             }
-
-//             .center{
-//                 z-index: -2;
-//             }
-
-//             .right{
-//                 // border-top: 2px solid #4ba2b2;
-//                 // box-shadow: 0px -10px 0px 0px #4ba2b2;
-//                 margin: -2vh 0 0 0;
-//             }
-
-//         }
-
-//         .r1{
-//             .halfHex{
-//                 margin-top: 1vh;
-//             }
-//         }
-//     }
-
-//     footer{
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: center;
-//         width: 100vw;
-//         height: calc(97vh / 4);
-
-//         margin-top: 3vh;
-//     }
-
+.ptext{
+    grid-row: 5 / span 4;
+    grid-column: 1 / span 4;
+    color: darken($color: $drawing-blue, $amount: 20);
+    font-weight: bold;
+    line-height: 1.7;
+    font-size: 2.8vh;
+    text-shadow: 1px 1px $drawing-yellow, -1px 1px $drawing-yellow;
     
+    text-align: center;
+
+    p{
+        height: 100%;
+        padding-top: 5%;
+    }
+}
+
+.shape{
+    height: 49vh;
+    width: 24vh;
+    shape-margin: 2%;
+}
+
+.shapeLeft{
+    float: left;
+    shape-outside: url("../images/hex-left.svg");
+}
+
+.shapeRight{
+    float: right;
+    shape-outside: url("../images/hex-right.svg");
+    margin-right: -8vh;
+}
+
 }
