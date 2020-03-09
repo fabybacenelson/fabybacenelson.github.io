@@ -29,23 +29,6 @@ header{
     fill: darken($color: $drawing-blue, $amount: 15);
 }
 
-// .left{
-//     stroke: $drawing-blue;
-//     stroke-width: 3px;
-//     transition: stroke-width 0.2s;
-// }
-
-// .right{
-//     stroke: $drawing-blue;
-//     stroke-width: 2px;
-//     transition: stroke-width 0.2s;
-// }
-
-
-// .left:hover, .right:hover{
-//     stroke-width: 0;
-//     z-index: 2;
-// }
 
 .current{
     fill: $drawing-yellow;
@@ -79,36 +62,6 @@ a{
 .container{
     position: relative;
 }
-
-// p{
-//     color: darken($color: $drawing-blue, $amount: 20);
-//     font-weight: bold;
-//     line-height: 1.5;
-//     font-size: 100%;
-//     display: inline-block;
-//     text-shadow: 1px 1px $drawing-yellow, -1px 1px $drawing-yellow;
-//     // position: absolute;
-//     padding: 0 8%;
-//     text-align: center;
-//     vertical-align: middle;
-//     margin: 0 auto;
-// }
-
-// .p1, .p2{
-//     height: 80vw;
-//     width: 75vw;
-//     display: block;
-//     position: absolute;
-//     left: 13vw;
-// }
-
-// .p1{
-//     top: 315px;
-// }
-
-// .p2{
-//     top: 183vw;
-// }
 
 footer{
     margin-top: 2px;
@@ -179,97 +132,3 @@ footer{
 #screenHex{
     display: none;
 }
-
-// @media screen and (min-width: 425px){
-//     p{
-//         font-size: 16pt;
-//     }
-// }
-
-
-// @media screen and (min-width: 600px){
-
-//     .p{
-//         left: 0;
-//         width: 100%;
-//     }
-
-//     .p1{
-//         top: 150px;
-//     }
-
-//     .p2{
-//         top: 690px;
-//     }
-
-//     header, footer, .container, .drawing{
-//         max-width: 600px;
-//         margin: 0 auto;
-//     }
-
-//     .container{
-//         text-align: center;
-//     }
-
-// }
-
-// @media screen and (min-width: 800px){
-
-//     header{
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: left;
-//         max-width: 100vw;
-        
-//         max-height: 170px;
-//         margin: 0 auto 50px auto;
-//         svg{
-//             width: 100%;
-//             max-width: 395px;
-//         }
-//         nav{
-//             position: relative;
-//             top: 2px;
-//             left: -90px;
-//             svg{
-//                 width: 200%;
-//             }
-//         }
-//     }
-
-//     #screenHex{
-//         display: block;
-//         max-width: 334px;
-//         margin: 0 auto 150px auto;
-//         svg{
-//             width: 100%;
-//         }
-//     }
-
-//     .container{
-//         display: flex;
-//         flex-direction: row;
-//         max-width: 75%;
-//         margin-bottom: 50px;
-
-//         svg{
-//             width: 100%;
-//         }
-//     }
-
-//     footer{
-//         max-width: 300px;
-//         position: fixed;
-//         bottom: 0;
-//         left: calc(50vw - 157px);
-//         margin-bottom: -2px;
-//         svg{
-//             width: 100%;
-//         }
-//     }
-
-//     .contactPage{
-//         display: none;
-//     }
-
-// }
