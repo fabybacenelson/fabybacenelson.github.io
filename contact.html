@@ -25,7 +25,7 @@
     
             </svg>
     
-            <nav>
+            <nav class="desktopHide">
                     <svg viewBox="0 0 100 43">
                         <a href="about.html">
                             <polygon points="0 0, 25 43, 50 0" stroke-width="0" fill="#fbf8e5" class="left">
@@ -45,11 +45,32 @@
                     </svg>
                 </ul>
             </nav>
+            <nav class="mobileHide">
+                <svg viewBox="0 0 100 43">
+                    <a href="about.html">
+                        <polygon points="0,43 25,0 50,43" stroke-width="0" class="navShape">
+                        </polygon>
+                        <text x="13.5" y="35" class="navText about">ABOUT</text>
+                    </a>
+
+                    <a href="index.html">
+                        <polygon points="25,0 50,43 75,0" stroke-width="0" class="navShape"></polygon>
+                        <text x="34" y="12" class="navText portfolio">PROJECTS</text>
+                    </a>
+
+                    <a href="#">
+                        <polygon points="50,43 75,0 100,43" stroke-width="0" class="current navShape"></polygon>
+                        <text x="60" y="35" class="navText contact current">CONTACT</text>
+                    </a>
+                </svg>
+            </ul>
+        </nav>
+
         </header>
     
         <main>
             <svg class="mobileHide top right" viewBox="0 0 100 43">
-                <polygon points="0,43 25,0 75,0 100,43" stroke-width="0" fill="#80beca"></polygon>
+                <polygon points="0,0 100,0 75,43 25,43" stroke-width="0" fill="#80beca"></polygon>
             </svg>
             <svg class="mobileHide rTwo left" viewBox="0 0 100 43">
                 <polygon points="0,0 50,0 25,43" stroke-width="0" fill="#80beca"></polygon>
@@ -71,10 +92,10 @@
             </svg>
             <svg class="content email" viewBox="0 0 100 43">
 
-                <polygon class="shape" points="25,0 75,0 50,43 0,43" stroke-width="0" fill="#fbf8e5"></polygon>
+                <polygon class="shape eHover" points="25,0 75,0 50,43 0,43" stroke-width="0" fill="#fbf8e5"></polygon>
                 
                 <a href="mailto:NaN@nellienelson.com">
-                    <text x="71" y="34.5" class="footText">@</text>
+                    <text x="71" y="34.5" class="footText eHover">@</text>
                 </a>
                 <text x="27" y="18" class="info email">email</text>
                 <a href="mailto:NaN@nellienelson.com">

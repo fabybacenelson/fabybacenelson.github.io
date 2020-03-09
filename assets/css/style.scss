@@ -12,6 +12,7 @@ html {
 body{
     font-family: 'Public Sans', sans-serif;
     background-color: $drawing-blue;
+    overflow: hidden;
   }
 
 header{
@@ -23,15 +24,27 @@ header{
 
 }
 
+.wrap{
+    margin-top: 3px;
+}
+
 .navText{
     font-size: 5pt;
     font-weight: bolder;
     fill: darken($color: $drawing-blue, $amount: 15);
 }
 
-
-.current{
+.navShape{
     fill: $drawing-yellow;
+}
+
+
+.current.navText{
+    fill: $drawing-yellow;
+}
+
+.current.navShape{
+    fill: darken($color: $drawing-blue, $amount: 15)
 }
 
 a{
@@ -58,10 +71,6 @@ a{
         margin: 0 auto;
     }
  }
-
-.container{
-    position: relative;
-}
 
 footer{
     margin-top: 2px;
@@ -112,22 +121,20 @@ footer{
 
 .address{
     font-size: 3.1pt;
-    text-decoration: underline;
 }
 
 .download{
     font-size: 6pt;
+}
+
+.resume:hover .download, .github:hover .username, .email:hover .address, .linkedin:hover{
     text-decoration: underline;
 }
 
 .username{
     font-size: 4.5pt;
-    text-decoration: underline;
 }
 
-.linkedin:hover{
-    text-decoration: underline;
-}
 
 #screenHex{
     display: none;

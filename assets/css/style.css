@@ -9,6 +9,7 @@ html {
 body {
   font-family: "Public Sans", sans-serif;
   background-color: #6eb5c2;
+  overflow: hidden;
 }
 
 header {
@@ -18,14 +19,26 @@ header nav {
   margin-bottom: 4px;
 }
 
+.wrap {
+  margin-top: 3px;
+}
+
 .navText {
   font-size: 5pt;
   font-weight: bolder;
   fill: #4392a0;
 }
 
-.current {
+.navShape {
   fill: #fbf8e5;
+}
+
+.current.navText {
+  fill: #fbf8e5;
+}
+
+.current.navShape {
+  fill: #4392a0;
 }
 
 a {
@@ -48,10 +61,6 @@ a {
   max-width: 100%;
   display: block;
   margin: 0 auto;
-}
-
-.container {
-  position: relative;
 }
 
 footer {
@@ -102,21 +111,18 @@ footer {
 
 .address {
   font-size: 3.1pt;
-  text-decoration: underline;
 }
 
 .download {
   font-size: 6pt;
+}
+
+.resume:hover .download, .github:hover .username, .email:hover .address, .linkedin:hover {
   text-decoration: underline;
 }
 
 .username {
   font-size: 4.5pt;
-  text-decoration: underline;
-}
-
-.linkedin:hover {
-  text-decoration: underline;
 }
 
 #screenHex {
