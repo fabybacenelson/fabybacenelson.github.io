@@ -13,6 +13,10 @@
     grid-row: 5;
     grid-column: 7;
   }
+
+  .projHex:hover .titleHex {
+    fill: #5cacbb;
+  }
 }
 
 /*# sourceMappingURL=projects.css.map */
