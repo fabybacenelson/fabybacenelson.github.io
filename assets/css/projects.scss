@@ -20,5 +20,14 @@ $drawing-yellow: #fbf8e5;
     .projHex:hover .titleHex{
         fill: #5cacbb;
     }
+    .rTwo.left{
+        grid-row: 3;
+        grid-column: 1;
+    }
+    
+    .rTwo.right{
+        grid-row: 3;
+        grid-column: 7;
+    }
 
 }
