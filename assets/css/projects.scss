@@ -1,0 +1,20 @@
+$drawing-blue: #6eb5c2;
+$drawing-yellow: #fbf8e5;
+
+@media screen and (min-width: 800px){
+    .fullHex.left{
+        grid-row: 5;
+        grid-column: 1;
+    }
+
+    .fullHex.center{
+        grid-row: 3;
+        grid-column: 4;
+    }
+
+    .fullHex.right{
+        grid-row: 5;
+        grid-column: 7;
+    }
+
+}

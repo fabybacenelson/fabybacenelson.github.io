@@ -67,12 +67,12 @@
 
   nav {
     grid-row: 1;
-    grid-column: 4;
+    grid-column: 7;
   }
 
   .top.right {
     grid-row: 1;
-    grid-column: 7;
+    grid-column: 4;
   }
 
   .rTwo.left {
