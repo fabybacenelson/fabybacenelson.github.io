@@ -35,6 +35,10 @@
   font-weight: bold;
 }
 
+.triLink:hover .repo, .triLink:hover .page {
+  fill-opacity: 50%;
+}
+
 @media screen and (min-width: 550px) {
   .fullHex.left {
     grid-row: 5;

@@ -10,18 +10,20 @@ $drawing-yellow: #fbf8e5;
     font-size: 8.5pt;
 }  
 
+.address, .download, .username{
+    fill: darken($color: $drawing-blue, $amount: 15);
+}
+
 .address{
     font-size: 3.1pt;
 }
 
 .download{
     font-size: 6pt;
-    fill: darken($color: $drawing-blue, $amount: 20);
 }
 
 .username{
     font-size: 4.5pt;
-    fill: darken($color: $drawing-blue, $amount: 20);
 }
 
 @media screen and (min-width: 550px){

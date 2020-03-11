@@ -7,18 +7,20 @@
   font-size: 8.5pt;
 }
 
+.address, .download, .username {
+  fill: #4392a0;
+}
+
 .address {
   font-size: 3.1pt;
 }
 
 .download {
   font-size: 6pt;
-  fill: #3c818e;
 }
 
 .username {
   font-size: 4.5pt;
-  fill: #3c818e;
 }
 
 @media screen and (min-width: 550px) {
