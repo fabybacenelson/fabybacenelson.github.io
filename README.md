@@ -6,7 +6,7 @@ This is my portfolio website. Currently it has the main projects page, an "about
 
 ## Installation
 
-To install this project all you need to do is download the repository and open index.html using your browser of choice. Alternatively, you could just go to the github page for this website.
+To install this project all you need to do is download the repository and open / using your browser of choice. Alternatively, you could just go to the github page for this website.
 
 ## Usage
 

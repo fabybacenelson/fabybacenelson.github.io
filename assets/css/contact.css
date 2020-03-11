@@ -1,53 +1,26 @@
-.mobileHide {
-  display: none;
+.resume:hover .download, .github:hover .username, .email:hover .address, .linkedin:hover {
+  text-decoration: underline;
+}
+
+.email, .resume, .github, .linkedin {
+  fill: #3c818e;
+  font-size: 8.5pt;
+}
+
+.address {
+  font-size: 3.1pt;
+}
+
+.download {
+  font-size: 6pt;
+}
+
+.username {
+  font-size: 4.5pt;
+  fill: #3c818e;
 }
 
 @media screen and (min-width: 550px) {
-  .desktopHide {
-    display: none;
-  }
-
-  .mobileHide {
-    display: block;
-  }
-
-  svg {
-    width: calc(14.5vh * 4);
-    height: calc(97vh / 4);
-  }
-
-  .fullHex {
-    height: 49vh;
-  }
-
-  .wrap {
-    width: 145vh;
-    height: 100vh;
-    margin-left: calc((100vw - 145vh)/2);
-    display: inline-grid;
-    grid-template-rows: repeat(8, 12.5vh);
-    grid-template-columns: repeat(10, 14.5vh);
-  }
-
-  header, main {
-    display: contents;
-  }
-
-  .logo {
-    grid-row: 1;
-    grid-column: 1;
-  }
-
-  nav {
-    grid-row: 1;
-    grid-column: 7;
-  }
-
-  .top.right {
-    grid-row: 1;
-    grid-column: 4;
-  }
-
   .rTwo.left {
     grid-row: 3;
     grid-column: 1;

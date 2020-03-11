@@ -2,6 +2,39 @@
   font-size: 7.5pt;
 }
 
+.projText {
+  fill: #fbf8e5;
+}
+.projText:first-of-type {
+  font-weight: bold;
+}
+
+#weather {
+  font-size: 10pt;
+}
+
+#dashboard {
+  font-size: 9.5pt;
+}
+
+#password {
+  font-size: 10pt;
+}
+
+.gitlink {
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+.repo {
+  fill: #fbf8e5;
+}
+
+.page, .info {
+  fill: #34717c;
+  font-weight: bold;
+}
+
 @media screen and (min-width: 550px) {
   .fullHex.left {
     grid-row: 5;

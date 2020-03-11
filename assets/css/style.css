@@ -51,17 +51,6 @@ a {
   font-weight: bolder;
 }
 
-.drawing {
-  max-width: 100%;
-  background-color: #6eb5c2;
-  margin-bottom: 1%;
-}
-.drawing img {
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
-}
-
 footer {
   margin-top: 2px;
 }
@@ -69,63 +58,6 @@ footer {
 .footText {
   fill: #fbf8e5;
   font-size: 20pt;
-}
-
-.projText {
-  fill: #fbf8e5;
-}
-.projText:first-of-type {
-  font-weight: bold;
-}
-
-#weather {
-  font-size: 10pt;
-}
-
-#dashboard {
-  font-size: 9.5pt;
-}
-
-#password {
-  font-size: 10pt;
-}
-
-.gitlink {
-  font-size: 8pt;
-  font-weight: bold;
-}
-
-.repo {
-  fill: #fbf8e5;
-}
-
-.page, .info {
-  fill: #34717c;
-  font-weight: bold;
-}
-
-.email, .resume, .github, .linkedin {
-  font-size: 8.5pt;
-}
-
-.address {
-  font-size: 3.1pt;
-}
-
-.download {
-  font-size: 6pt;
-}
-
-.resume:hover .download, .github:hover .username, .email:hover .address, .linkedin:hover {
-  text-decoration: underline;
-}
-
-.username {
-  font-size: 4.5pt;
-}
-
-#screenHex {
-  display: none;
 }
 
 .mobileHide {

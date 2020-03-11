@@ -1,5 +1,12 @@
-.mobileHide {
-  display: none;
+.drawing {
+  max-width: 100%;
+  background-color: #6eb5c2;
+  margin-bottom: 1%;
+}
+.drawing img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .ptext {
@@ -33,7 +40,8 @@
   margin-right: -8vh;
 }
 
-.myCats, .faves {
+.myCats,
+.faves {
   fill: #fbf8e5;
 }
 
@@ -56,47 +64,6 @@
 }
 
 @media screen and (min-width: 550px) {
-  .mobileHide {
-    display: block;
-  }
-
-  svg {
-    width: calc(14.5vh * 4);
-    height: calc(97vh / 4);
-  }
-
-  .fullHex {
-    height: 49vh;
-  }
-
-  .wrap {
-    width: 145vh;
-    height: 100vh;
-    margin-left: calc((100vw - 145vh)/2);
-    display: inline-grid;
-    grid-template-rows: repeat(8, 12.5vh);
-    grid-template-columns: repeat(10, 14.5vh);
-  }
-
-  header, main {
-    display: contents;
-  }
-
-  .logo {
-    grid-row: 1;
-    grid-column: 1;
-  }
-
-  nav {
-    grid-row: 1;
-    grid-column: 7;
-  }
-
-  .top.right {
-    grid-row: 1;
-    grid-column: 4;
-  }
-
   .rTwo.left {
     grid-row: 3;
     grid-column: 1;
