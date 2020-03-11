@@ -1,0 +1,117 @@
+$drawing-blue: #6eb5c2;
+$drawing-yellow: #fbf8e5;
+
+.drawing {
+    max-width: 100%;
+    background-color: $drawing-blue;
+    margin-bottom: 1%;
+
+    img {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.ptext {
+    color: darken($color: $drawing-blue, $amount: 20);
+    font-weight: bold;
+    line-height: 1.7;
+    font-size: 4.5vw;
+    text-shadow: 1px 1px $drawing-yellow, -1px 1px $drawing-yellow;
+
+    text-align: center;
+
+    position: absolute;
+
+    p {
+        height: 100%;
+        padding-top: 10%;
+    }
+}
+
+.shape {
+    height: 49vh;
+    width: 24vh;
+    shape-margin: 2%;
+}
+
+.shapeLeft {
+    float: left;
+    shape-outside: url("../images/hex-left.svg");
+}
+
+.shapeRight {
+    float: right;
+    shape-outside: url("../images/hex-right.svg");
+    margin-right: -8vh;
+}
+
+.myCats,
+.faves {
+    fill: $drawing-yellow;
+}
+
+.myCats {
+    font-size: 13pt;
+}
+
+.faves {
+    font-size: 7pt;
+}
+
+.skills {
+    fill: darken($color: $drawing-blue, $amount: 15);
+    font-size: 10pt;
+}
+
+.skill {
+    fill: darken($color: $drawing-blue, $amount: 15);
+    font-size: 7pt;
+}
+
+@media screen and (min-width: 550px) {
+    .rTwo.left {
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+    .rTwo.middle {
+        grid-row: 3;
+        grid-column: 4;
+        height: 49vh;
+    }
+
+    .rTwo.right {
+        grid-row: 3;
+        grid-column: 7;
+    }
+
+    .rThree.left {
+        grid-row: 5;
+        grid-column: 1;
+    }
+
+    footer {
+        grid-row: 7;
+        grid-column: 4;
+    }
+
+    .rThree.right {
+        grid-row: 5;
+        grid-column: 7;
+    }
+
+    .ptext {
+        position: static;
+        grid-row: 5 / span 4;
+        grid-column: 1 / span 4;
+        font-size: 2.8vh;
+
+        p {
+            padding-top: 5%;
+        }
+    }
+
+
+}
