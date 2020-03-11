@@ -46,16 +46,23 @@
 }
 
 .myCats {
-  font-size: 13pt;
+  font-size: 10.5pt;
+}
+
+#catsLink:hover .myCats {
+  fill: #6eb5c2;
 }
 
 .faves {
-  font-size: 7pt;
+  font-size: 6pt;
+}
+.faves:hover {
+  text-decoration: underline;
 }
 
 .skills {
-  fill: #4392a0;
-  font-size: 10pt;
+  fill: #5cacba;
+  font-size: 8pt;
 }
 
 .skill {
