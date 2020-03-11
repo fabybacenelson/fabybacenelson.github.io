@@ -10,6 +10,20 @@ $(document).ready(function(){
         }
     })
 
+    if(Math.max(document.documentElement.clientWidth) <= 550){
+        $("#catsLink").attr("href", "#imgHex");
+        $("#catsTrap").attr("points", "25,0 75,0 100,43 50,43");
+        $("#catsTri").attr("points", "0,43 25,0 50,43");
+
+        $("#catIcon").attr("x", "15");
+        $("#catIcon").attr("y", "19");
+
+        $(".my").attr("x", "43");
+        $(".cats").attr("x", "51");
+
+    }
+
+
     // if(Math.max(document.documentElement.clientWidth) >= 800){
     //     $("#codeQuiz").hover(function(){
     //         $("#screenHex").css("display","block");
