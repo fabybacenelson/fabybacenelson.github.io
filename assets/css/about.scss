@@ -38,6 +38,28 @@ $drawing-yellow: #fbf8e5;
     margin-right: -8vh;
 }
 
+.myCats, .faves{
+    fill: $drawing-yellow;
+}
+
+.myCats{
+    font-size: 13pt;
+}
+
+.faves{
+    font-size: 7pt;
+}
+
+.skills{
+    fill: darken($color: $drawing-blue, $amount: 15);
+    font-size: 10pt;
+}
+
+.skill{
+    fill: darken($color: $drawing-blue, $amount: 15);
+    font-size: 7pt;
+}
+
 @media screen and (min-width: 550px){
 
 .mobileHide{
