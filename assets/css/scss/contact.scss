@@ -16,6 +16,7 @@ $drawing-yellow: #fbf8e5;
 
 .download{
     font-size: 6pt;
+    fill: darken($color: $drawing-blue, $amount: 20);
 }
 
 .username{
