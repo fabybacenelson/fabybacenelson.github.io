@@ -1,3 +1,7 @@
+#generator {
+  font-size: 7.5pt;
+}
+
 @media screen and (min-width: 550px) {
   .fullHex.left {
     grid-row: 5;
