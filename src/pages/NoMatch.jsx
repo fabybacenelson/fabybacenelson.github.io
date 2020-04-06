@@ -1,11 +1,11 @@
 import React from 'react';
 
-function About(){
+function NoMatch(){
     return(
         <main>
-            about
+            404
         </main>
     )
 }
 
-export default About;
+export default NoMatch;
