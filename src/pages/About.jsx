@@ -3,6 +3,14 @@ import React, { useState } from 'react';
 function About(){
     const [catState, setCatState] = useState("human");
 
+    const [screenSize, setScreenSize] = useState((window.innerWidth<=550 ? "small":"big"));
+
+    window.addEventListener('resize', () => {
+        if((screenSize === "small" && window.innerWidth > 550)||(screenSize === "big" && window.innerWidth <= 550)){
+            setScreenSize((window.innerWidth <= 550 ? "small":"big"));
+        }
+    });
+
     function catSwitch(){
         if(catState === "human"){
             setCatState("cat");
@@ -26,11 +34,13 @@ function About(){
                     fill={(catState === "human"? "url(#img1)": "url(#img2)")}></polygon>
             </svg>
             <svg className="halfHex rTwo left" viewBox="0 0 100 43">
-                <polygon id="catsTrap" points="0,0 50,0 75,43 25,43" fill="#4ba2b2"></polygon>
-                <polygon id="catsTri" points="50,0 100,0 75,43" fill="#80beca"></polygon>
-                <image id="catIcon" width="20" x="65" y="6" href="assets/images/cat.svg"></image>
-                <a onClick={() => catSwitch()} id="catsLink"><text x="22" y="18" className="myCats my" fill={(catState === "cat" ? "#6eb5c2":"#fbf8e5")}>my</text>
-                    <text x="29" y="33" className="myCats cats" fill={(catState === "cat" ? "#6eb5c2":"#fbf8e5")}>cats</text></a>
+                <polygon id="catsTrap" points={(screenSize==="big"?"0,0 50,0 75,43 25,43":"25,0 75,0 100,43 50,43")} fill="#4ba2b2"></polygon>
+                <polygon id="catsTri" points={(screenSize==="big"?"50,0 100,0 75,43":"0,43 25,0 50,43")}fill="#80beca"></polygon>
+                <image id="catIcon" width="20" x={(screenSize==="big"? "65":"15")} y={(screenSize==="big"? "6":"19")} href="assets/images/cat.svg"></image>
+                <a onClick={() => catSwitch()} id="catsLink">
+                    <text x={(screenSize==="big"? "22":"43")} y="18" className="myCats my" fill={(catState === "cat" ? "#6eb5c2":"#fbf8e5")}>my</text>
+                    <text x={(screenSize==="big"? "29":"51")} y="33" className="myCats cats" fill={(catState === "cat" ? "#6eb5c2":"#fbf8e5")}>cats</text>
+                </a>
                 
             </svg>
 
@@ -68,26 +78,6 @@ function About(){
                 <text x="30" y="59" className="skill">MongoDB</text>
                 <text x="40" y="72" className="skill">Sass</text>
             </svg>
-
-            <footer>
-                <svg viewBox="0 0 100 43">
-                    <a href="https://www.linkedin.com/in/nellie-nelson/">
-                        <polygon points="0 43, 25 0, 50 43" strokeWidth="0" fill="#4ba2b2">
-                        </polygon>
-                        <image width="18" x="16.5" y="19" href="assets/images/linkedinLight.svg"></image>
-                    </a>
-
-                    <a href="https://github.com/fabybacenelson">
-                        <polygon points="25 0, 50 43, 75 0" strokeWidth="0" fill="#fbf8e5"></polygon>
-                        <image width="25" x="38.5" y="3" href="assets/images/githubBlue.svg"></image>
-                    </a>
-
-                    <a href="mailto:NaN@nellienelson.com">
-                        <polygon points="50 43, 75 0, 100 43" strokeWidth="0" fill="#4ba2b2"></polygon>
-                        <text x="64" y="34.5" className="footText">@</text>
-                    </a>
-                </svg>
-            </footer>
         </main>
     )
 }

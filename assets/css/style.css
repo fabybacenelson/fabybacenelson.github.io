@@ -230,14 +230,17 @@ footer {
 }
 
 .shapeLeft {
+  box-sizing: border-box;
   float: left;
   shape-outside: url("../images/hex-left.svg");
+  padding-right: 8vh;
 }
 
 .shapeRight {
+  box-sizing: border-box;
   float: right;
   shape-outside: url("../images/hex-right.svg");
-  margin-right: -8vh;
+  padding-left: 8vh;
 }
 
 .faves {
@@ -246,11 +249,6 @@ footer {
 
 .myCats {
   font-size: 10.5pt;
-}
-
-#catsLink:hover .myCats {
-  fill: #6eb5c2;
-  cursor: pointer;
 }
 
 .faves {
@@ -271,6 +269,11 @@ footer {
 }
 
 @media screen and (min-width: 550px) {
+  #catsLink:hover .myCats {
+    fill: #6eb5c2;
+    cursor: pointer;
+  }  
+
   .rTwo.left {
     grid-row: 3;
     grid-column: 1;
