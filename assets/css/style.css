@@ -314,6 +314,89 @@ footer {
 }
 
 /*# sourceMappingURL=about.css.map */
+.resume:hover .download, .github:hover .username, .email:hover .address, .linkedin:hover {
+  text-decoration: underline;
+}
+
+.email, .resume, .github, .linkedin {
+  fill: #3c818e;
+  font-size: 8.5pt;
+}
+
+.address, .download, .username {
+  fill: #4392a0;
+}
+
+.address {
+  font-size: 3.1pt;
+}
+
+.download {
+  font-size: 6pt;
+}
+
+.username {
+  font-size: 4.5pt;
+}
+
+@media screen and (min-width: 550px) {
+  .rTwo.left {
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  .crTwo.right {
+    grid-row: 3;
+    grid-column: 9;
+  }
+
+  .rThree.left {
+    grid-row: 5;
+    grid-column: 1;
+  }
+
+  .crThree.right {
+    grid-row: 5;
+    grid-column: 9;
+  }
+
+  .email {
+    grid-row: 3;
+    grid-column: 2;
+  }
+
+  .resume {
+    grid-row: 5;
+    grid-column: 6;
+  }
+
+  .github {
+    grid-row: 3;
+    grid-column: 6;
+  }
+
+  .linkedin {
+    grid-row: 5;
+    grid-column: 2;
+  }
+
+  .bottom.left {
+    grid-row: 7;
+    grid-column: 1;
+  }
+
+  .bottom.right {
+    grid-row: 7;
+    grid-column: 7;
+  }
+
+  footer {
+    grid-row: 7;
+    grid-column: 4;
+  }
+}
+
+/*# sourceMappingURL=contact.css.map */
 
 
 /*# sourceMappingURL=style.css.map */
