@@ -56,7 +56,7 @@ function Contact(){
                 </a>
                 <text x="40" y="18" className="info github">github</text>
                 <a href="https://github.com/WhoaNellie">
-                    <text x="45" y="29" className="info username">WhoaNellie</text>
+                    <text x="48" y="29" className="info username">WhoaNellie</text>
                 </a>
 
             </svg>
