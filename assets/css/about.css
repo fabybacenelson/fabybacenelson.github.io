@@ -41,7 +41,6 @@
   margin-right: -8vh;
 }
 
-.myCats,
 .faves {
   fill: #fbf8e5;
 }
@@ -52,6 +51,7 @@
 
 #catsLink:hover .myCats {
   fill: #6eb5c2;
+  cursor: pointer;
 }
 
 .faves {
