@@ -32,6 +32,10 @@ header nav {
   fill: #fbf8e5;
 }
 
+.navShape:hover+.navText,.navText:hover{
+  fill-opacity: 50%;
+}
+
 .current.navText {
   fill: #fbf8e5;
 }
