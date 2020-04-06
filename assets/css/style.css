@@ -124,4 +124,79 @@ footer {
   }
 }
 
+#generator {
+  font-size: 7.5pt;
+}
+
+.projText {
+  fill: #fbf8e5;
+}
+.projText:first-of-type {
+  font-weight: bold;
+}
+
+#weather {
+  font-size: 10pt;
+}
+
+#dashboard {
+  font-size: 9.5pt;
+}
+
+#password {
+  font-size: 10pt;
+}
+
+.gitlink {
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+.repo {
+  fill: #fbf8e5;
+}
+
+.page, .info {
+  fill: #34717c;
+  font-weight: bold;
+}
+
+.triLink:hover .repo, .triLink:hover .page {
+  fill-opacity: 50%;
+}
+
+@media screen and (min-width: 550px) {
+  .fullHex.left {
+    grid-row: 5;
+    grid-column: 1;
+  }
+
+  .fullHex.center {
+    grid-row: 3;
+    grid-column: 4;
+  }
+
+  .fullHex.right {
+    grid-row: 5;
+    grid-column: 7;
+  }
+
+  .projHex:hover .titleHex {
+    fill: #5cacbb;
+  }
+
+  .rTwo.left {
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  .rTwo.right {
+    grid-row: 3;
+    grid-column: 7;
+  }
+}
+
+/*# sourceMappingURL=projects.css.map */
+
+
 /*# sourceMappingURL=style.css.map */
