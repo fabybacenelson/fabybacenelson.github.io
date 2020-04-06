@@ -51,12 +51,12 @@ function Contact(){
             <svg className="content github" viewBox="0 0 100 43">
                 <polygon className="shape" points="25,0 75,0 100,43 50,43" strokeWidth="0" fill="#fbf8e5"></polygon>
 
-                <a href="https://github.com/fabybacenelson">
+                <a href="https://github.com/WhoaNellie">
                     <image width="24" x="9" y="16" href="assets/images/githubLight.svg"></image>
                 </a>
                 <text x="40" y="18" className="info github">github</text>
-                <a href="https://github.com/fabybacenelson">
-                    <text x="45" y="29" className="info username">fabybacenelson</text>
+                <a href="https://github.com/WhoaNellie">
+                    <text x="45" y="29" className="info username">WhoaNellie</text>
                 </a>
 
             </svg>
