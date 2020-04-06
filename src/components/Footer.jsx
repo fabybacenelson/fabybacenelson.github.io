@@ -10,7 +10,7 @@ function Footer(){
                     <image width="18" x="16.5" y="19" href="assets/images/linkedinLight.svg"></image>
                 </a>
 
-                <a href="https://github.com/fabybacenelson">
+                <a href="https://github.com/WhoaNellie">
                     <polygon points="25 0, 50 43, 75 0" strokeWidth="0" fill="#fbf8e5"></polygon>
                     <image width="25" x="38.5" y="3" href="assets/images/githubBlue.svg"></image>
                 </a>

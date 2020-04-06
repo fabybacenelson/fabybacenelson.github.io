@@ -20,13 +20,13 @@ function Projects(){
                 <text x="40" y="-6" transform="rotate(60)" className="projText" id="code">CODE</text>
                 <text x="42" y="8" transform="rotate(60)" className="projText" id="quiz">QUIZ</text>
 
-                <a className="triLink" href="https://github.com/fabybacenelson/Code-Quiz">
+                <a className="triLink" href="https://github.com/WhoaNellie/Code-Quiz">
                     <polygon className="shape" points="75 0, 50 43, 100 43" strokeWidth="0" fill="#4ba2b2"></polygon>
                     <text x="36.5" y="12" transform="rotate(60, 50, 43)" className="gitlink repo">REPO</text>
                 </a>
 
 
-                <a className="triLink" href="https://fabybacenelson.github.io/Code-Quiz/">
+                <a className="triLink" href="https://WhoaNellie.github.io/Code-Quiz/">
                     <polygon className="shape" points="50 43, 75 86, 100 43" strokeWidth="0" fill="#fbf8e5"></polygon>
                     <text x="60" y="40" transform="rotate(60, 50, 43)" className="gitlink page">PAGE</text>
                 </a>
@@ -41,13 +41,13 @@ function Projects(){
                 <polygon className="shape" points="25 0, 50 43, 75 0" strokeWidth="0" fill="#fbf8e5"></polygon>
                 <image width="18" x="43" y="6" href="assets/images/key.svg"></image>
 
-                <a className="triLink" href="https://github.com/fabybacenelson/Password-Generator">
+                <a className="triLink" href="https://github.com/WhoaNellie/Password-Generator">
                     <polygon className="shape" points="75 0, 50 43, 100 43" strokeWidth="0" fill="#4ba2b2"></polygon>
                     <text x="36.5" y="12" transform="rotate(60, 50, 43)" className="gitlink repo">REPO</text>
                 </a>
 
 
-                <a className="triLink" href="https://fabybacenelson.github.io/Password-Generator/">
+                <a className="triLink" href="https://WhoaNellie.github.io/Password-Generator/">
                     <polygon className="shape" points="50 43, 75 86, 100 43" strokeWidth="0" fill="#fbf8e5"></polygon>
                     <text x="60" y="40" transform="rotate(60, 50, 43)" className="gitlink page">PAGE</text>
                 </a>
