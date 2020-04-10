@@ -62,13 +62,13 @@ function Projects(){
                 <polygon className="shape" points="25 0, 50 43, 75 0" strokeWidth="0" fill="#fbf8e5"></polygon>
                 <image width="20" x="40" y="6" href="assets/images/cat.svg"></image>
 
-                <a className="triLink" href="https://github.com/ZonkeyStripes/The-Death-Clause">
+                <a className="triLink" href="https://github.com/WhoaNellie/The-Death-Clause">
                     <polygon className="shape" points="75 0, 50 43, 100 43" strokeWidth="0" fill="#4ba2b2"></polygon>
                     <text x="36.5" y="12" transform="rotate(60, 50, 43)" className="gitlink repo">REPO</text>
                 </a>
 
 
-                <a className="triLink" href="https://nameless-caverns-11772.herokuapp.com/">
+                <a className="triLink" href="https://thedeathclause.herokuapp.com/">
                     <polygon className="shape" points="50 43, 75 86, 100 43" strokeWidth="0" fill="#fbf8e5"></polygon>
                     <text x="60" y="40" transform="rotate(60, 50, 43)" className="gitlink page">PAGE</text>
                 </a>
