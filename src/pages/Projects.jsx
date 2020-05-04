@@ -11,29 +11,29 @@ function Projects(){
             <polyline points="0 0, 25 43, 75 43, 100 0" fill="#80beca"></polyline>
         </svg>
 
-        <svg className="fullHex left" viewBox="0 0 100 86">
+        <svg className="fullHex center" viewBox="0 0 100 86">
             <g className="projHex">
                 <polygon className="mobileHide titleHex" points="0,43 25,0 75,86 25,86" fill="#80beca"></polygon>
 
                 <polygon className="shape" points="25 0, 50 43, 75 0" strokeWidth="0" fill="#fbf8e5"></polygon>
-                <image width="20" x="40" y="6" href="assets/images/grade.svg"></image>
-                <text x="40" y="-6" transform="rotate(60)" className="projText" id="code">CODE</text>
-                <text x="42" y="8" transform="rotate(60)" className="projText" id="quiz">QUIZ</text>
+                <image width="20" x="40" y="6" href="assets/images/rings.svg"></image>
+                <text x="39" y="-6" transform="rotate(60)" className="projText" id="code">RINGS</text>
+                <text x="42" y="8" transform="rotate(60)" className="projText" id="quiz">TRUE</text>
 
-                <a className="triLink" href="https://github.com/WhoaNellie/Code-Quiz">
+                <a className="triLink" href="https://github.com/WhoaNellie/ringsTrue">
                     <polygon className="shape" points="75 0, 50 43, 100 43" strokeWidth="0" fill="#4ba2b2"></polygon>
                     <text x="36.5" y="12" transform="rotate(60, 50, 43)" className="gitlink repo">REPO</text>
                 </a>
 
 
-                <a className="triLink" href="https://WhoaNellie.github.io/Code-Quiz/">
+                <a className="triLink" href="https://ringstrue.herokuapp.com/">
                     <polygon className="shape" points="50 43, 75 86, 100 43" strokeWidth="0" fill="#fbf8e5"></polygon>
                     <text x="60" y="40" transform="rotate(60, 50, 43)" className="gitlink page">PAGE</text>
                 </a>
             </g>
         </svg>
 
-        <svg className="fullHex center" viewBox="0 0 100 86">
+        <svg className="fullHex left" viewBox="0 0 100 86">
             <g className="projHex">
                 <polygon className="mobileHide titleHex" points="0,43 25,0 75,86 25,86" fill="#80beca"></polygon>
                 <text x="26" y="-7" transform="rotate(60)" className="projText" id="password">PASSWORD</text>

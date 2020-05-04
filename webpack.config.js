@@ -16,5 +16,7 @@ module.exports = {
         path: path.resolve("./dist/js"),
         filename: "script.bundle.js"
     },
-    resolve: {extensions: ['.js', '.jsx']}
+    resolve: {extensions: ['.js', '.jsx']},
+    mode: 'development',
+    watch: true
   };
